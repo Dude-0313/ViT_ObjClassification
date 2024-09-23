@@ -25,10 +25,10 @@ CnDs  (folder structure is important)
 ........L "dog images.jpg"  
 
 The Visual Transformer Architecture is as below :  
-<img src="ViT_Architecture.png" width="300">   
+<img src="ViT_Architecture.png" width="500">   
 
 The training and evaluation snapshot of the model is as below :  
-<img src="Snapshot.png" width="300">   
+<img src="Snapshot.png" width="500">   
 
 
 ## Author : Kuljeet Singh
