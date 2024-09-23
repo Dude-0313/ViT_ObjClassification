@@ -1,0 +1,25 @@
+ 99%|█████████▉| 2470/2500 [17:16<00:07,  4.05it/s]{'loss': 0.002, 'grad_norm': 0.01753854937851429, 'learning_rate': 2.48e-07, 'epoch': 4.94}
+ 99%|█████████▉| 2480/2500 [17:18<00:04,  4.05it/s]{'loss': 0.002, 'grad_norm': 0.017037250101566315, 'learning_rate': 1.68e-07, 'epoch': 4.96}
+100%|█████████▉| 2490/2500 [17:21<00:02,  3.95it/s]{'loss': 0.0021, 'grad_norm': 0.016640368849039078, 'learning_rate': 8.800000000000001e-08, 'epoch': 4.98}
+100%|██████████| 2500/2500 [17:23<00:00,  4.41it/s]{'loss': 0.002, 'grad_norm': 0.017597608268260956, 'learning_rate': 8e-09, 'epoch': 5.0}
+{'eval_loss': 0.019458197057247162, 'eval_accuracy': 0.996, 'eval_runtime': 15.6684, 'eval_samples_per_second': 127.645, 'eval_steps_per_second': 15.956, 'epoch': 5.0}
+{'train_runtime': 1060.841, 'train_samples_per_second': 37.706, 'train_steps_per_second': 2.357, 'train_loss': 0.018803156900405883, 'epoch': 5.0}
+***** train metrics *****
+  epoch                    =          5.0
+  total_flos               = 2886801571GF
+  train_loss               =       0.0188
+  train_runtime            =   0:17:40.84
+  train_samples_per_second =       37.706
+  train_steps_per_second   =        2.357
+
+
+***** eval metrics *****
+  epoch                   =        5.0
+  eval_accuracy           =     0.9955
+  eval_loss               =     0.0183
+  eval_runtime            = 0:00:13.03
+  eval_samples_per_second =    153.386
+  eval_steps_per_second   =     19.173
+
+Predicted class: cats
+[{'label': 'cats', 'score': 0.9972334504127502}, {'label': 'dogs', 'score': 0.0027665903326123953}]
