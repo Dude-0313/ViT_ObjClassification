@@ -136,5 +136,5 @@ def predict_one_image(image_path):
 
 
 if __name__ == "__main__":
-    # train_n_eval()
+    train_n_eval()
     predict_one_image(TEST_IMAGE_2)
